@@ -25,7 +25,7 @@ registerPlugin({
         },
 
         initPlugin(){
-            event.on('load', function(ev: any) {
+            event.on('load', function(ev) {
                 
                 const command = require("command")
                 if (!command) throw new Error("command.js library not found! Please download command.js and enable it to be able use this script!")
