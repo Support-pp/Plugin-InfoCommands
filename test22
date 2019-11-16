@@ -1,3 +1,1 @@
-event.on('chat', function(ev) {
-    engine.log('[ihk] Got message "'+ev.text +'" from '+ ev.client.name());
-})
+console.log("Engine after load oke.")
